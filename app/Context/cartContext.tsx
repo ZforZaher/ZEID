@@ -2,7 +2,7 @@
 import { createContext, useState, useEffect } from "react";
 import getCartProducts from "../Apis/getCartProducts";
 
-export const cartItemContext = createContext(null)
+export const cartItemContext = createContext<{dataDetails: number | null, setDetails: React.Dispatch<React.SetStateAction<number | null>>} | null>(null)
 export function CartContextProvider({children}:{children:React.ReactNode}){
     const [dataDetails, setDetails] = useState<number|null>(null)
 
