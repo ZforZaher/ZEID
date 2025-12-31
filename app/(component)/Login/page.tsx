@@ -33,7 +33,7 @@ export default function Login() {
   }  
 
   return (
-    <div className=" w-[90%] lg:w-[50%] md:w-[70%] sm:w-[80%] mx-auto mt-25 border border-[#787878] fade-in">
+    <div className=" w-[90%] lg:w-[50%] md:w-[70%] sm:w-[80%] h-screen mx-auto mt-25 border border-[#787878] fade-in">
       <h1 className="font-mono font-bold text-[#FFFFE3] uppercase text-3xl text-center pt-3">join ZÉID now</h1>
       <Form {...form}>
         <form onSubmit={form.handleSubmit(HandleRegister)} className="py-3">
