@@ -1,6 +1,6 @@
 "use server"
 import getMyToken from "../../utilities/getMyToken";
-
+ 
 export default async function AddToWishlist(id: string) {
   const token = await getMyToken();
   const payload = {
