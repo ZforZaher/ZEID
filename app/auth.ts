@@ -3,7 +3,6 @@ import credentials from 'next-auth/providers/credentials'
 import  {jwtDecode} from "jwt-decode";
 import { decode } from 'punycode';
 
-
 export const authOptions:NextAuthOptions={
     pages:{
         signIn:'/Login'
