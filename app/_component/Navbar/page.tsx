@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 import { signOut, useSession } from "next-auth/react";
 import { cartItemContext } from "../../Context/cartContext";
 
+
 export default function Navbar() {
   let { data: session, status } = useSession();
   const path = usePathname();
