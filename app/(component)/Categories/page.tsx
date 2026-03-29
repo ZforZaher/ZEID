@@ -9,7 +9,7 @@ export default async function Categories() {
         <Filter />
       </div>
 
-      <div className="w-[95%] mx-auto mt-2">
+      <div className="w-[95%] mx-auto mt-2"> 
         <AllProducts />
       </div>
     </>
