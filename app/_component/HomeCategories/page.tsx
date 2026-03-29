@@ -2,6 +2,7 @@
 import Link from 'next/link'
 import React from 'react'
 
+
 export default function HomeCatgs() {
   return (
     <div className='fade-in'>
