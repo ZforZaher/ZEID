@@ -3,6 +3,7 @@ import { GetAllProducts } from "../../Apis/allProducts.api";
 import { Iproduct } from "../../interface/Product.interface";
 import SingleProduct from "../../_component/ProductCart/page";
 import AllProducts from "../../_component/AllProducts/page"
+
 export default async function Products() {
   let {data} = await GetAllProducts()
   let Products = data
