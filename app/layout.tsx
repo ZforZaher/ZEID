@@ -8,6 +8,7 @@ import MySessionProvider from "./_component/MySessionProvider/MySessionProvider"
 import { CartContextProvider } from "./Context/cartContext";
 import Footer from "./_component/Footer/page";
 
+
 const sourceSerif4 = Source_Serif_4({
   subsets: ["latin"],
   variable: "--font-source-serif",
