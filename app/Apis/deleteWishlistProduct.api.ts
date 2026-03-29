@@ -1,6 +1,7 @@
 "use server";
 import getMyToken from "../../utilities/getMyToken";
 
+
 export default async function deleteWishlistProduct(id: string) {
   const token = await getMyToken();
   
