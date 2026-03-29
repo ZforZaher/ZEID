@@ -4,7 +4,7 @@ import { toast } from "sonner";
 import AddToCart from "../../Apis/addToCart.api";
 import { useContext } from "react";
 import { cartItemContext } from "../../Context/cartContext";
-
+ 
 export default function AddBtn({ id }: { id: string }) {
   const context = useContext(cartItemContext);
   if (!context) {
