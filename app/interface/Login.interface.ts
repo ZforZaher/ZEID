@@ -2,7 +2,7 @@ export interface ILogin {
   email: string;
   password: string;
 }
-
+ 
 export interface Register {
   name: string;
   email: string;
