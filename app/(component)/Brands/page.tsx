@@ -3,6 +3,7 @@ import { GetAllBrands } from "../../Apis/allBrands.api";
 import Link from "next/link";
 import { Brand } from "../../interface/Product.interface";
 
+
 export default async function Brands() {
 
   let { data } = await GetAllBrands();
