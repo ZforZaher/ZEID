@@ -3,6 +3,7 @@ import { Iproduct } from "../../../interface/Product.interface";
 import ImageGallery from "../ImageGallery/page";
 import AddBtn from "./AddBtn";
 
+
 export default async function ProductDetails({
   params,
 }: {
