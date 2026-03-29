@@ -15,6 +15,7 @@ export interface Data {
   totalCartPrice: number
 }
 
+
 export interface CProduct {
   count: number
   _id: string
