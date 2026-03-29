@@ -11,5 +11,5 @@ export default async function getWishlistProducts() {
     headers: headers,
   });
   let data = await response.json();
-  return data;
+  return data; 
 }
