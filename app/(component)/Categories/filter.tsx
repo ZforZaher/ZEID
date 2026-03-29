@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 
 export default function Filter() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   return (
     <>
