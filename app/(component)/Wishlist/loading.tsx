@@ -8,7 +8,7 @@ export default function loading() {
           <span>Z</span>
           <span>É</span>
           <span>I</span>
-          <span>D</span>
+          <span>D</span> 
         </h1>
       </div>
     </div>
