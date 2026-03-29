@@ -2,7 +2,7 @@ import React from "react";
 import { Iproduct } from "../../interface/Product.interface"; // Adjust the import path based on where Iproduct is defined
 import Link from "next/link";
 import AddBtn from "./addBtn";
-import AddWishBtn from "./addWishBtn";
+import AddWishBtn from "./addWishBtn"; 
 export default function SingleProduct({ product }: { product: Iproduct }) {
   return (
     <div className=" w-[80%] sm:w-[47%] md:w-[30%] lg:w-[24%] h-fit m-1  mx-auto border border-[#787878] bg-white">
