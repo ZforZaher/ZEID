@@ -4,6 +4,7 @@ import Slider from "./_component/Slider/page";
 import BrandsSlider from "./_component/HomeBrands/page";
 import WhyZeid from "./_component/WhyZeid/page";
 import homeImg from "../public/homepage.png";
+
 export default function HomePage() {
   return (
     <div>
