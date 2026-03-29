@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import AddToWishlist from "../../Apis/addToWishlist.api";
 import { toast } from "sonner";
-
+ 
 export default function AddWishBtn({ id }: { id: string }) {
   const [inWishList, setInWishList] = useState(false);
   async function addProductToWishList() {
